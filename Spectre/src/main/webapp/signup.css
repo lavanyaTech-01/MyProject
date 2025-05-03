@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+  background: linear-gradient(180deg, rgb(255, 0, 0), #0f0f0f 100vh);
+  }
+  .container {
+    width: 900px;
+    height: 700px;
+    margin-top: 80px;
+    position:relative;
+  }
+  #loginForm {
+    width: 500px;
+    height: 400px;
+    position:relative;
+    z-index:10; 
+  }
+   
+  .btn:hover{
+    opacity: 0.9; /* Slightly dim the image */
+  }
+  
+  #box{
+    position:absolute;
+  }
+  .panel{
+    background-color: white;
+    padding:18px;
+    border: 2px rgb(247, 246, 246) solid;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #000000, #f6f4f8 100vh);
+   
+}
