@@ -15,8 +15,8 @@ public class UserDao {
 	public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 	public static final String URL = "jdbc:mysql://localhost:3306/";
 	public static final String  DB_NAME= "spectre";
-	public static final String USERNAME = "root";
-	public static final String PASSWORD = "hackerL123";
+	public static final String USERNAME = "your-username";
+	public static final String PASSWORD = "your-password";
 	
 	public static Connection makeCon() {
 		Connection con = null;
